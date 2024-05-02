@@ -4,7 +4,7 @@ import Button from 'primevue/button';
 import ConfettiGenerator from "confetti-js";
 import { onMounted } from 'vue';
 
-const threshold = ref(80); // Threshold value for blow detection
+const threshold = ref(30); // Threshold value for blow detection
 const isBlowing = ref(false);
 const isMicError = ref(false);
 const step = ref(0);
